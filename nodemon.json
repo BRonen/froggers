@@ -1,0 +1,14 @@
+{
+    "restartable": "rs",
+    "ignore": [
+        ".git",
+        "target"
+    ],
+    "events": {
+        "restart": "cargo build"
+    },
+    "watch": [
+        "src"
+    ],
+    "ext": "rs, lua"
+}
